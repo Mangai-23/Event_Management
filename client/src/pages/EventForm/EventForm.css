@@ -1,0 +1,87 @@
+/* Eventform.css */
+
+.container {
+    display: flex;
+    background: url('../../assets/eventback.png');
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the form title */
+  .form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  
+  /* Styles for form inputs */
+  .form-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the submit button */
+  .form-submit {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the connected account paragraph */
+  .connected-account {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the Connect Wallet button */
+  .connect-wallet {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connect-wallet:hover {
+    background-color: #0056b3;
+  }
+  
+  .connected {
+    background-color: #28a745;
+  }
+  
+  .connected:hover {
+    background-color: #218838;
+  }
+  
